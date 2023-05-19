@@ -19,7 +19,7 @@ export default function Hero() {
       >
         <img
           className="img-avatar"
-          src={require("../../assets/images/avatar_test.png")}
+          src={require("../../assets/images/temp.jpg")}
           alt="avatarImage"
         />
       </motion.div>
@@ -43,7 +43,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.29,
-          opacity: { duration: 0.2, type: "tween" },
+          opacity: {duration: 0.2, type: "tween" },
           y: { duration: 0.6, type: "spring" },
         }}
       >
