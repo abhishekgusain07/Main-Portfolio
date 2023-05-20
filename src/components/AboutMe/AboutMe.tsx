@@ -22,8 +22,6 @@ export default function AboutMe () {
         viewport={{ once: true }}
         whileInView={{ opacity: 1, y: 0 }}
       >{"My tech stack and expertise."}</motion.h1>
-
-      <IntroCards />
       <Showcase />
       <EndCards />
     </div>

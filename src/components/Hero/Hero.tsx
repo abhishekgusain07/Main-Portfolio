@@ -11,6 +11,7 @@ export default function Hero() {
   return (
     <div className={`container-hero ${state.darkmode ? "dark-bg-1" : "light-bg-1"}`}>
       <div className="anchor" id="hero" />
+      <div className="forAvatar">
       <motion.div
         className="container-avatar"
         initial={{ opacity: 0, y: 350 }}
@@ -19,11 +20,11 @@ export default function Hero() {
       >
         <img
           className="img-avatar"
-          src={require("../../assets/images/temp.jpg")}
+          src={require("../../assets/images/profileImage.jpg")}
           alt="avatarImage"
         />
-      </motion.div>
-
+      </motion.div> 
+        </div>
       <motion.h2
         className={`${state.darkmode ? "white-opacity" : "light-eyebrow"}`}
         initial={{ opacity: 0, y: 140 }}

@@ -4,7 +4,7 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  padding-top: 14.25em;
+  padding-top: 8.25em;
   box-sizing: border-box;
   position: static;
 
@@ -12,12 +12,10 @@
     top: 0;
     position: absolute;
   }
-
   .container-avatar {
     position: relative;
     border-radius: 50%;
-    height: 60vh;
-    width: 250px;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,8 +33,9 @@
     }
 
     img {
-      height: 450px;
-      width: 450px;
+      top: 1rem;
+      height: 250px;
+      width: 250px;
       border-top-right-radius: 0px;
       bottom: 0px;
       -webkit-user-drag: none;
@@ -55,7 +54,7 @@
 
   h2 {
     margin-top: 24px;
-    font-size: 24px;
+    font-size: 29px;
     font-weight: 500;
     letter-spacing: -0.035em;
 

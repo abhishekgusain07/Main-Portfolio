@@ -98,7 +98,7 @@ export default function Projects() {
 
       <a
         rel = "noreferrer"
-        href="https://github.com/gianlucajahn"
+        href="https://github.com/abhishekgusain07"
         target="_blank"
         className="more"
         onMouseDown={playAudio}
